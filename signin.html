@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <title>Курсовая работа</title>
+    <link href="./styles/theme/global.css" rel="stylesheet">
+    <link href="./styles/index.css" rel="stylesheet">
+    <link href="./styles/auth.css" rel="stylesheet">
+    <link href="./styles/theme/breakpoints.css" rel="stylesheet">
+    <link href="./styles/theme/animations.css" rel="stylesheet">
+    <link href="./styles/theme/theme.css" rel="stylesheet">
+    <link href="./styles/theme/other-breakpoints.css" rel="stylesheet">
+    <link href="./styles/theme/burger.css" rel="stylesheet">
+    <link href="./styles/theme/modal.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="page__wrapper">
+        <header class="header">
+            <div class="container__max">
+                <div class="header__preview">
+                    <div class="header__preview__button__left btn__animation">
+                        <a href="tel:123456789" class="lng-tel">Call - 123 456 789</a>
+                    </div>
+                    <div class="header__preview__logo">
+                        <img src="./static/LOGO.png" alt="logo" class="header__preview__image" />
+                    </div>
+                    <div class="header__preview__button__right lng-reservation btn__animation">
+                        Reservation
+                    </div>
+                </div>
+
+
+                <div class="navbar__container">
+        
+                <nav>
+                    <ul class="header__navbar">
+                        <li class="header__btn">
+                            <a style="position: relative; z-index: 11111111111111111111;" class="lng-home pp"
+                            href="./index.html">
+                            Home
+                        </a>
+                        </li>
+                        <li class="header__btn">
+                            <a href="#mini__info" class="header__btn__link lng-about__us">
+                                About Us
+                            </a>
+                        </li>
+                        <li class="header__btn">
+                            <a href="#dishes" class="header__btn__link lng-menu">
+                                Our Menu
+                            </a>
+                        </li>
+                        <li class="header__btn">
+                            <a style="position: relative; z-index: 11111111111111111111;" class="lng-pages pp"
+                                href="./index.html">
+                                Pages
+                            </a>
+                        </li>
+        
+                        <li class="header__btn">
+                            <a href="#blog" class="header__btn__link lng-blog">
+                                Blog
+                            </a>
+                        </li>
+                        <li class="header__btn">
+                            <a href="#footer" class="header__btn__link lng-contact">
+                                Contact Us
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                    <div class="header__navbar__networks">
+                        <img src="./static/inst.png" alt="social network" class="header__network" />
+                        <img src="./static/facebook.png" alt="social network" class="header__network" />
+                        <img src="./static/twitter.png" alt="social network" class="header__network" />
+                        <img src="./static/pinterest.png" alt="social network" class="header__network" />
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+        
+            <div class="burger__panel">
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+            </div>
+        
+            <aside class="burger__content">
+
+                 <img src="./static/LOGO.png" alt="logo" class="burger__logo">
+                 
+                 <div class="burger__btns">
+                    <div class="burger__btn lng-home">Home</div>
+                    <div class="burger__btn lng-about__us">About Us</div>
+                    <div class="burger__btn  lng-menu">Our Menu</div>
+                    <div class="burger__btn lng-pages">Pages</div>
+                    <div class="burger__btn lng-blog">Blog</div>
+                    <div class="burger__btn lng-contact">Contact Us</div>
+                    <div class="burger__btn">Call - 123 456 789</div>
+                    <div class="burger__btn">Reservation</div>
+                </div>
+                <div class="header__navbar__networks">
+                    <img src="./static/inst.png" alt="social network" class="header__network" />
+                    <img src="./static/facebook.png" alt="social network" class="header__network" />
+                    <img src="./static/twitter.png" alt="social network" class="header__network" />
+                    <img src="./static/pinterest.png" alt="social network" class="header__network" />
+                </div>
+            </aside>
+
+        </header>
+        <main class="content__of__page">
+            <div id="arrowTop" class="arrowTop" hidden></div>
+            <section class="auth__form">
+                <div class="container__max">
+                    <div class="auth__form__content">
+                        <p class="auth__form__title">
+                            Sign in
+                        </p>
+                        <form action="" class="auth__form__inputs">
+                            <div class="form__element">
+                                <p class="form__username__text">
+                                    Email
+                                </p>
+                                <input type="text" class="form__username__input" placeholder="Type email" required />
+                                <img src="./static/auth/email.png" alt="user" class="form__username__image" />
+                            </div>
+
+
+                            <div class="form__element">
+                                <p class="form__username__text">
+                                    Password
+                                </p>
+                                <input   class="form__username__input password__input" type="password" placeholder="Type password" required />
+                                <img src="./static/auth/hidden.png" alt="user" class="form__username__image eye__btn" />
+                            </div>
+
+                            <div class="form__element">
+                                <button type="submit" class="auth__form__submit btn__animation">
+                                    Sign in
+                                </button>
+                            </div>
+
+                            <div class="form__element">
+                              <p class="orHave">
+                                <a href="./auth.html">
+
+                                    Or sign up
+                                </a>
+                              </p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer" id="footer">
+            <div class="container__max">
+                <div class="footer__preview">
+                    <p class="footer__hashtag">
+                        #TheTastEat
+                    </p>
+                    <img src="./static/LOGO.png" alt="logo" class="footer__preview__logo" />
+                    <div class="footer__networks">
+                        <img src="./static/inst.png" alt="social network" class=" " />
+                        <img src="./static/facebook.png" alt="social network" class=" " />
+                        <img src="./static/twitter.png" alt="social network" class=" " />
+                        <img src="./static/pinterest.png" alt="social network" class=" " />
+                    </div>
+                </div>
+                <div class="footer__titles">
+                    <div class="footer__titles__element">
+                    </div>
+                    <div class="footer__titles__element lng-footer-title">
+                        Join our mailing list for updates,
+                        Get news & offers events.
+                    </div>
+                    <div class="footer__titles__element">
+                        <p class="footer__working__hours lng-footer-wh">
+                            Working Hours
+                        </p>
+                    </div>
+                </div>
+                <div class="footer__main">
+                    <div class="footer__main__element">
+                        <p class="footer__main__element__title lng-footer-contact">
+                            Contact
+                        </p>
+                        <p class="footer__main__element__subtitle lng-footer-st">
+                            5 Rue Dalou, 75015 Paris
+                        </p>
+                        <p class="footer__main__element__email">
+                            <a href="tel:1234556">
+                                +123 456 789
+                            </a>
+                        </p>
+                        <p class="footer__main__element__tel">
+                            <a href="mailto:test@mail.ru">
+
+                                josefin@mail.com
+                            </a>
+                        </p>
+                    </div>
+
+
+                    <div class="footer__main__element">
+
+                        <form action="" class="footer__main__element__form">
+                            <div class="footer__main__element__form__content">
+                                <input type="text" class="footer__main__element__input" placeholder="Email" required />
+                                <button type="submit"
+                                    class="footer__main__element__form__btn lng-footer-sbs btn__animation">
+                                    Subscribe
+                                </button>
+                            </div>
+                        </form>
+
+                    </div>
+                    <div class="footer__main__element">
+                        <div class="footer__main__element__days">
+                            <div class="footer__main__element__day">
+                                <p class="footer__main__element__day__left lng-footer-m-f">
+                                    Mon – Fri:
+                                </p>
+                                <p class="footer__main__element__day__right">
+                                    7.00am – 6.00pm
+                                </p>
+                            </div>
+                            <div class="footer__main__element__day">
+                                <p class="footer__main__element__day__left lng-footer-sat">
+                                    Sat:
+                                </p>
+                                <p class="footer__main__element__day__right">
+                                    7.00am – 6.00pm
+                                </p>
+                            </div>
+                            <div class="footer__main__element__day">
+                                <p class="footer__main__element__day__left lng-footer-sun">
+                                    Sun:
+                                </p>
+                                <p class="footer__main__element__day__right">
+                                    8.00am – 6.00pm
+                                </p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="footer__copyright">
+                    <div class="footer__copyright__left">
+                        <span class="footer__copyright__white lng-footer-copyright">
+                            © Copyright - TastEat | Designed by
+                        </span>
+                        <span class="footer__copyright__orange lng-footer-victorflow">
+                            VictorFlow
+                        </span>
+                        <span class="footer__copyright__white lng-footer-powered">
+                            - Powered by
+                        </span>
+                        <span class="footer__copyright__orange lng-footer-webflow">
+                            Webflow
+                        </span>
+                    </div>
+                    <div class="footer__copyright__right">
+                        <div class="footer__copyright__item lng-footer-styleguide">Styleguide</div>
+                        <div class="footer__copyright__item lng-footer-licences">Licenses</div>
+                        <div class="footer__copyright__item lng-footer-protected">Protected</div>
+                        <div class="footer__copyright__item lng-footer-not">Not Found</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+        <input type="button" class="theme__switcher" value="Toggle" id="toggle-theme" />
+
+        <select class="change-lang">
+            <option value="ru" selected>RU</option>
+            <option value="en">EN</option>
+            <option value="ua">UA</option>
+        </select>
+    </div>
+
+
+
+
+
+
+    <div class="modal">
+        <div class="modal__window" id="modal">
+            <div class="modal__header">
+                <p class="modal__header__title">
+                    Buy your loved one
+                </p>
+                <p class="modal__header__about">
+                    Choose your loved one
+                </p>
+                <div class="modal__content">
+                    <div class="modal__content__left">
+                        <img src="./static/popular/IMAGE.png" alt="dish" class="modal__content__image" />
+                    </div>
+                    <div class="modal__content__right">
+                        <div class="modal__content__right__inform">
+
+                            <p class="modal__content__right__title">
+                                Desert Sicilia
+                            </p>
+                            <p class="modal__content__right__about">
+                                The most common dish in ancient Greece
+                            </p>
+                        </div>
+                        <button class="modal__content__right__btn btn__animation ">
+                            Buy
+                        </button>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+        <div class="modal__overlay"></div>
+    </div>
+
+
+
+
+
+
+    <script src="book-modal.js"></script>
+    <script src="card-carousel.js">  </script>
+    <script src="arrow.js">  </script>
+    <script src="theme-switcher.js"></script>
+    <script src="sidebar.js"></script>
+    <script src="lang-switcher.js"></script>
+    <script src="auth.js"></script>
+</body>
+
+</html>

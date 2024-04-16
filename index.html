@@ -1,0 +1,1390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <title>Курсовая работа</title>
+    <link href="./styles/theme/global.css" rel="stylesheet">
+    <link href="./styles/index.css" rel="stylesheet">
+    <link href="./styles/theme/breakpoints.css" rel="stylesheet">
+    <link href="./styles/theme/animations.css" rel="stylesheet">
+    <link href="./styles/theme/theme.css" rel="stylesheet">
+    <link href="./styles/theme/other-breakpoints.css" rel="stylesheet">
+    <link href="./styles/theme/burger.css" rel="stylesheet">
+    <link href="./styles/theme/modal.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="page__wrapper">
+        <header class="header">
+            <div class="container__max">
+                <div class="header__preview">
+                    <div class="header__preview__button__left btn__animation">
+                        <a href="tel:123456789" class="lng-tel">Call - 123 456 789</a>
+                    </div>
+                    <div class="header__preview__logo">
+                        <img src="./static/LOGO.png" alt="logo" class="header__preview__image" />
+                    </div>
+                    <div class="header__preview__button__right lng-reservation btn__animation">
+                        Reservation
+                    </div>
+                </div>
+                <div class="navbar__container">
+                    <nav>
+                        <ul class="header__navbar">
+                            <li class="header__btn lng-home">
+                                <a style="position: relative; z-index: 11111111111111111111;" class="pp"
+                                    href="./index.html">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="header__btn">
+                                <a href="#mini__info" class="header__btn__link lng-about__us">
+                                    About Us
+                                </a>
+                            </li>
+                            <li class="header__btn">
+                                <a href="#dishes" class="header__btn__link lng-menu">
+                                    Our Menu
+                                </a>
+                            </li>
+                            <li class="header__btn">
+                                <a style="position: relative; z-index: 11111111111111111111;" class="pp"
+                                    href="./auth.html">
+                                    Pages
+                                </a>
+                            </li>
+
+                            <li class="header__btn">
+                                <a href="#blog" class="header__btn__link lng-blog">
+                                    Blog
+                                </a>
+                            </li>
+                            <li class="header__btn">
+                                <a href="#footer" class="header__btn__link lng-contact">
+                                    Contact Us
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__navbar__networks">
+                        <img src="./static/inst.png" alt="social network" class="header__network" />
+                        <img src="./static/facebook.png" alt="social network" class="header__network" />
+                        <img src="./static/twitter.png" alt="social network" class="header__network" />
+                        <img src="./static/pinterest.png" alt="social network" class="header__network" />
+                    </div>
+
+                </div>
+            </div>
+            <div class="burger__panel">
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+            </div>
+            <aside class="burger__content">
+
+                <img src="./static/LOGO.png" alt="logo" class="burger__logo">
+
+                <div class="burger__btns">
+                    <div class="burger__btn lng-home">Home</div>
+                    <div class="burger__btn lng-about__us">About Us</div>
+                    <div class="burger__btn  lng-menu">Our Menu</div>
+                    <div class="burger__btn lng-pages">Pages</div>
+                    <div class="burger__btn lng-blog">Blog</div>
+                    <div class="burger__btn lng-contact">Contact Us</div>
+                    <div class="burger__btn">Call - 123 456 789</div>
+                    <div class="burger__btn">Reservation</div>
+                </div>
+                <div class="header__navbar__networks">
+                    <img src="./static/inst.png" alt="social network" class="header__network" />
+                    <img src="./static/facebook.png" alt="social network" class="header__network" />
+                    <img src="./static/twitter.png" alt="social network" class="header__network" />
+                    <img src="./static/pinterest.png" alt="social network" class="header__network" />
+                </div>
+            </aside>
+        </header>
+
+
+
+
+
+        <main class="content__of__page">
+            <div id="arrowTop" class="arrowTop" hidden></div>
+
+            <section class="welcome">
+                <div class="container__max">
+                    <div class="welcome__content">
+                        <div class="welcome__left">
+
+
+                            <h1 class="welcome__title lng-welcome-title">
+                                Welcome to Restaurant
+                            </h1>
+
+                            <h2 class="welcome__about lng-welcome-about">
+                                The people, food and the prime locations make the perfect place good friends & family to
+                                come together and have great time.
+                            </h2>
+                            <button class="welcome__btn lng-welcome-btn btn__animation">
+                                View Menu
+                            </button>
+                        </div>
+
+                        <div class="welcome__right">
+                            <div class="welcome__right__container">
+                                <img src="./static/IMAGE.png" alt="restaurant" class="welcome__right__image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="mini__info" id="mini__info">
+                <div class="container__max">
+                    <div class="mini__info__content">
+                        <div class="mini__info__item">
+                            <img src="./static/geolocation.png" alt="icons" class="mini__info__item__image">
+                            <div class="mini__info__item__text">
+                                <p class="mini__info__item__title lng-mini__info__item__title__1">
+                                    Locate Us
+                                </p>
+                                <p class="mini__info__item__about lng-mini__info__item__about__3">
+                                    Riverside 25, San Diego, California
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="mini__info__item">
+                            <img src="./static/speed.png" alt="icons" class="mini__info__item__image">
+                            <div class="mini__info__item__text">
+                                <p class="mini__info__item__title lng-mini__info__item__title__2">
+                                    Open Hours
+                                </p>
+                                <p class="mini__info__item__about lng-mini__info__item__about__2">
+                                    Mon To Fri 9:00 AM - 9:00 PM
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="mini__info__item">
+                            <img src="./static/notebook.png" alt="icons" class="mini__info__item__image">
+                            <div class="mini__info__item__text">
+                                <p class="mini__info__item__title lng-mini__info__item__title__3">
+                                    Reservation
+                                </p>
+                                <p class="mini__info__item__about">
+                                    restaurantate@gmail.com
+                                </p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="delivery__story">
+                <div class="container__max">
+                    <div class="deivery__story__content">
+                        <div class="delivery__story__left">
+                            <img src="./static/restaurant.png" alt="restaurant" class="delivery__story__left__image" />
+                        </div>
+                        <div class="delivery__story__right">
+                            <p class="delivery__story__right__title lng-delivery__story__right__title">
+                                The Delicious Story
+                            </p>
+                            <p class="delivery__story__right__about lng-delivery__story__right__about">
+                                The people, food and the prime locations make the perfect place for the friends & family
+                                to
+                                come together and have great time.
+                            </p>
+                            <div class="delivery__story__right__years">
+                                <div class="delivery__story__right__2018">
+                                    <p class="delivery__story__right__2018__title">
+                                        2018
+                                    </p>
+
+                                    <p
+                                        class="delivery__story__right__2018__about lng-delivery__story__right__2018__about">
+                                        Plan for this restaurant to deliver healthy food.
+                                    </p>
+                                </div>
+
+                                <div class="delivery__story__right__2022">
+                                    <p class="delivery__story__right__2022__title">
+                                        2022
+                                    </p>
+
+                                    <p
+                                        class="delivery__story__right__2022__about lng-delivery__story__right__2022__about">
+                                        Happily in the fourth year by fulfill the motto.
+                                    </p>
+                                </div>
+
+
+                            </div>
+                            <div class="delivery__story__right__subscribtion">
+                                <p
+                                    class="delivery__story__right__subscribtion__title lng-delivery__story__right__subscribtion__title">
+                                    JOSEFINE
+                                </p>
+                                <img src="./static/subscribtion.png" alt="subscribtion"
+                                    class="delivery__story__right__subscribtion__image" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="dishes" id="dishes">
+                <div class="container__max">
+                    <h3 class="dishes__menu lng-dishes__menu">
+                        MENU
+                    </h3>
+                    <div class="dishes__content">
+
+                        <div class="dishes__left">
+                            <p class="dishes__left__title lng-dishes__left__title">
+                                Try Our Special dishes
+                            </p>
+                            <p class="dishes__left__about lng-dishes__left__about">
+                                Every time you perfectly dine with us, it should happy for great inspired food in an
+                                environment designed with individual touches unique to the local area.
+                            </p>
+                            <img src="./static/dish.png" alt="dish" class="dishes__left__image">
+                            <button class="dishes__left__button lng-dishes__left__button btn__animation">
+                                See all dishes
+                            </button>
+                        </div>
+
+
+
+
+
+
+                        <div class="dishes__right">
+                            <div class="dishes__right__item">
+                                <p class="dishes__right__title lng-dishes__right__title1">
+                                    Starters
+                                </p>
+                                <div class="dishes__elements">
+
+                                    <!--
+                                    <div class="dish__element">
+                                        <img src="./static/dishes/dish1.png" class="dish__element__image" alt="dish" />
+                                        <div class="dish__element__content">
+                                            <p class="dish__element__title lng-dish__element__title">
+                                                Raw Scallops from Erquy
+                                            </p>
+                                            <div class="dish__element__info">
+                                                <p class="dish__element__about lng-dish__element__about">
+                                                    <b>
+
+                                                        Shuck the scallop to that used for oysters
+                                                    </b>
+                                                </p>
+                                                <hr class="dish__element__line" />
+                                                <p class="dish__element__price">
+                                                    $40
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="dish__element">
+                                        <img src="./static/dishes/dish1.png" class="dish__element__image" alt="dish" />
+                                        <div class="dish__element__content">
+                                            <p class="dish__element__title  lng-dish__element__title">
+                                                Raw Scallops from Erquy
+                                            </p>
+                                            <div class="dish__element__info">
+                                                <p class="dish__element__about lng-dish__element__about">
+                                                    <b>
+
+                                                        Shuck the scallop to that used for oysters
+                                                    </b>
+                                                </p>
+                                                <hr class="dish__element__line" />
+                                                <p class="dish__element__price">
+                                                    $40
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="dish__element">
+                                        <img src="./static/dishes/dish1.png" class="dish__element__image" alt="dish" />
+                                        <div class="dish__element__content">
+                                            <p class="dish__element__title lng-dish__element__title">
+                                                Raw Scallops from Erquy
+                                            </p>
+                                            <div class="dish__element__info">
+                                                <p class="dish__element__about lng-dish__element__about">
+                                                    <b>
+
+                                                        Shuck the scallop to that used for oysters
+                                                    </b>
+                                                </p>
+                                                <hr class="dish__element__line" />
+                                                <p class="dish__element__price">
+                                                    $40
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="dish__element">
+                                        <img src="./static/dishes/dish1.png" class="dish__element__image" alt="dish" />
+                                        <div class="dish__element__content">
+                                            <p class="dish__element__title lng-dish__element__title">
+                                                Raw Scallops from Erquy
+                                            </p>
+                                            <div class="dish__element__info">
+                                                <p class="dish__element__about lng-dish__element__about">
+                                                    <b>
+
+                                                        Shuck the scallop to that used for oysters
+                                                    </b>
+                                                </p>
+                                                <hr class="dish__element__line" />
+                                                <p class="dish__element__price">
+                                                    $40
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                -->
+
+
+
+
+
+
+
+                                </div>
+                            </div>
+
+
+
+                            <div class="dishes__right__item">
+                                <p class="dishes__right__title lng-dishes__right__title2">
+                                    Main Dish
+                                </p>
+                                <div class="dishes__elements">
+
+
+
+
+                                    <!--
+
+                                        <div class="dish__element">
+                                            <img src="./static/dishes/dish1.png" class="dish__element__image" alt="dish" />
+                                        <div class="dish__element__content">
+                                            <p class="dish__element__title lng-dish__element__title">
+                                                Raw Scallops from Erquy
+                                            </p>
+                                            <div class="dish__element__info">
+                                                <p class="dish__element__about lng-dish__element__about">
+                                                    <b>
+
+                                                        Shuck the scallop to that used for oysters
+                                                    </b>
+                                                </p>
+                                                <hr class="dish__element__line" />
+                                                <p class="dish__element__price">
+                                                    $40
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="dish__element">
+                                        <img src="./static/dishes/dish1.png" class="dish__element__image" alt="dish" />
+                                        <div class="dish__element__content">
+                                            <p class="dish__element__title lng-dish__element__title">
+                                                Raw Scallops from Erquy
+                                            </p>
+                                            <div class="dish__element__info">
+                                                <p class="dish__element__about lng-dish__element__about">
+                                                    <b>
+
+                                                        Shuck the scallop to that used for oysters
+                                                    </b>
+                                                </p>
+                                                <hr class="dish__element__line" />
+                                                <p class="dish__element__price">
+                                                    $40
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="dish__element">
+                                        <img src="./static/dishes/dish1.png" class="dish__element__image" alt="dish" />
+                                        <div class="dish__element__content">
+                                            <p class="dish__element__title lng-dish__element__title">
+                                                Raw Scallops from Erquy
+                                            </p>
+                                            <div class="dish__element__info">
+                                                <p class="dish__element__about lng-dish__element__about">
+                                                    <b>
+
+                                                        Shuck the scallop to that used for oysters
+                                                    </b>
+                                                </p>
+                                                <hr class="dish__element__line" />
+                                                <p class="dish__element__price">
+                                                    $40
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    
+
+                                    <div class="dish__element">
+                                        <img src="./static/dishes/dish1.png" class="dish__element__image" alt="dish" />
+                                        <div class="dish__element__content">
+                                            <p class="dish__element__title lng-dish__element__title">
+                                                Raw Scallops from Erquy
+                                            </p>
+                                            <div class="dish__element__info">
+                                                <p class="dish__element__about lng-dish__element__about">
+                                                    <b>
+
+                                                        Shuck the scallop to that used for oysters
+                                                    </b>
+                                                </p>
+                                                <hr class="dish__element__line" />
+                                                <p class="dish__element__price">
+                                                    $40
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                -->
+
+
+
+
+
+
+
+                                </div>
+                            </div>
+
+
+
+
+                            <div class="dishes__right__item">
+                                <p class="dishes__right__title lng-dishes__right__title3">
+                                    Desert
+                                </p>
+                                <div class="dishes__elements">
+
+                                    <!--
+                                    <div class="dish__element">
+                                        <img src="./static/dishes/dish1.png" class="dish__element__image" alt="dish" />
+                                        <div class="dish__element__content">
+                                            <p class="dish__element__title lng-dish__element__title">
+                                                Raw Scallops from Erquy
+                                            </p>
+                                            <div class="dish__element__info">
+                                                <p class="dish__element__about lng-dish__element__about">
+                                                    <b>
+
+                                                        Shuck the scallop to that used for oysters
+                                                    </b>
+                                                </p>
+                                                <hr class="dish__element__line" />
+                                                <p class="dish__element__price">
+                                                    $40
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="dish__element">
+                                        <img src="./static/dishes/dish1.png" class="dish__element__image" alt="dish" />
+                                        <div class="dish__element__content">
+                                            <p class="dish__element__title lng-dish__element__title">
+                                                Raw Scallops from Erquy
+                                            </p>
+                                            <div class="dish__element__info">
+                                                <p class="dish__element__about lng-dish__element__about">
+                                                    <b>
+
+                                                        Shuck the scallop to that used for oysters
+                                                    </b>
+                                                </p>
+                                                <hr class="dish__element__line" />
+                                                <p class="dish__element__price">
+                                                    $40
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                -->
+                                </div>
+
+
+
+
+                            </div>
+
+
+                        </div>
+
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <section class="customers">
+                <div class="container__max">
+                    <div class="customers__content">
+                        <div class="customers__first__title lng-customers__first__title">
+                            Testimonial
+                        </div>
+                        <div class="customers__second__title lng-customers__second__title">
+                            Our Clients Say
+                        </div>
+                        <div class="customers__about lng-customers__about">
+                            We love to hear from customers, so please leave a comment or say hello in an email.
+                        </div>
+
+
+                        <div class="slider">
+                            <div class="slider-list customers__cards">
+                                <div class="slider-track customers__carousel">
+
+
+
+
+
+
+
+
+                                    <div class="customer__card slide">
+                                        <div class="customer__card__container">
+                                            <div class="customer__preview">
+
+                                                <div class="customer__avatar__wrapper">
+                                                    <div class="customer__element__image__item">
+                                                        <img src="./static/zapatie.png" alt="zapatie"
+                                                            class="customer__element__image__item__zapatie">
+                                                    </div>
+
+                                                    <img src="./static/Avatar.png" alt="avatar"
+                                                        class="customer__avatar" />
+                                                </div>
+                                                <div class="customer__personality">
+                                                    <p class="customer__name lng-customer__name">
+                                                       ааааааааааааааааа
+                                                    </p>
+                                                    <p class="customer__location lng-customer__location">
+                                                        Newyork
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <hr class="customer__card__line" />
+                                            <p class="customer__card__about lng-customer__card__about">
+                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita magni molestiae repellat? Aliquid praesentium, earum corporis nam iste labore repudiandae exercitationem cum iure officiis, voluptas temporibus quod, beatae fugit tenetur.
+                                                They known for its fabulous taste and food. Anywhere you go your hunger
+                                                is
+                                                satisfied. The best chicken & burgers those are yummy.
+
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+
+
+<!--
+
+                                    <div class="customer__card slide">
+                                        <div class="customer__card__container">
+                                            <div class="customer__preview">
+
+                                                <div class="customer__avatar__wrapper">
+                                                    <div class="customer__element__image__item">
+                                                        <img src="./static/zapatie.png" alt="zapatie"
+                                                            class="customer__element__image__item__zapatie">
+                                                    </div>
+
+                                                    <img src="./static/Avatar.png" alt="avatar"
+                                                        class="customer__avatar" />
+                                                </div>
+                                                <div class="customer__personality">
+                                                    <p class="customer__name lng-customer__name">
+                                                        Natasha D
+                                                    </p>
+                                                    <p class="customer__location lng-customer__location">
+                                                        Newyork
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <hr class="customer__card__line" />
+                                            <p class="customer__card__about lng-customer__card__about">
+                                                They known for its fabulous taste and food. Anywhere you go your hunger
+                                                is
+                                                satisfied. The best chicken & burgers those are yummy.
+                                            </p>
+
+                                        </div>
+                                    </div>
+
+
+
+
+                                    <div class="customer__card slide">
+                                        <div class="customer__card__container">
+
+                                            <div class="customer__preview">
+
+                                                <div class="customer__avatar__wrapper">
+                                                    <div class="customer__element__image__item">
+                                                        <img src="./static/zapatie.png" alt="zapatie"
+                                                            class="customer__element__image__item__zapatie">
+                                                    </div>
+
+                                                    <img src="./static/Avatar.png" alt="avatar"
+                                                        class="customer__avatar" />
+                                                </div>
+                                                <div class="customer__personality">
+                                                    <p class="customer__name lng-customer__name">
+                                                        Natasha D
+                                                    </p>
+                                                    <p class="customer__location lng-customer__location">
+                                                        Newyork
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <hr class="customer__card__line" />
+                                            <p class="customer__card__about lng-customer__card__about">
+                                                They known for its fabulous taste and food. Anywhere you go your hunger
+                                                is
+                                                satisfied. The best chicken & burgers those are yummy.
+                                            </p>
+
+                                        </div>
+                                    </div>
+
+
+
+
+
+                                    <div class="customer__card slide">
+                                        <div class="customer__card__container">
+
+                                            <div class="customer__preview">
+
+                                                <div class="customer__avatar__wrapper">
+                                                    <div class="customer__element__image__item">
+                                                        <img src="./static/zapatie.png" alt="zapatie"
+                                                            class="customer__element__image__item__zapatie">
+                                                    </div>
+
+                                                    <img src="./static/Avatar.png" alt="avatar"
+                                                        class="customer__avatar" />
+                                                </div>
+                                                <div class="customer__personality">
+                                                    <p class="customer__name lng-customer__name">
+                                                        Natasha D
+                                                    </p>
+                                                    <p class="customer__location lng-customer__location">
+                                                        Newyork
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <hr class="customer__card__line" />
+                                            <p class="customer__card__about lng-customer__card__about">
+                                                They known for its fabulous taste and food. Anywhere you go your hunger
+                                                is
+                                                satisfied. The best chicken & burgers those are yummy.
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                -->
+
+
+
+
+
+
+
+
+
+
+
+                                </div>
+                            </div>
+
+
+
+
+                            <div class="customers__cards__buttons slider-arrows">
+                                <button class="customers__cards__button active__card prev"></button>
+                                <button class="customers__cards__button next"></button>
+                            </div>
+
+
+
+
+                        </div>
+
+                    </div>
+            </section>
+            <style>
+                * {
+                    box-sizing: border-box;
+                }
+
+                .slider {
+                    position: relative;
+                    /*  width: 200px;
+                    height: 200px; */
+                    width: 100%;
+                    margin: 50px auto 0;
+                    user-select: none;
+                    touch-action: pan-y;
+                    margin-bottom: 200px;
+                    overflow: hidden;
+                }
+
+                .slider img {
+                    poiner-events: none;
+                }
+
+                .slider-list {}
+
+                .slider-list.grab {
+                    cursor: grab;
+                }
+
+                .slider-list.grabbing {
+                    cursor: grabbing;
+                }
+
+                .slider-track {
+                    display: flex;
+                    column-gap: 20px;
+                }
+
+                .slide {}
+            </style>
+
+
+
+
+
+
+
+
+
+
+
+            <img src="./static/Background.png" alt="lamps" class="background__lamps" />
+
+
+
+
+
+            <section class="offers">
+                <div class="container__max">
+                    <div class="offers__content">
+                        <p class="offers__first__title lng-offers__first__title">
+                            offers
+                        </p>
+                        <p class="offers__second__title lng-offers__second__title">
+                            Our Offer Dishes
+                        </p>
+                        <p class="offers__about lng-offers__about">
+                            Our chefs create melt-in-your-mouth dishes that'll satiate even the fussiest eaters now the
+                            dishes
+                            are in offers use it based on hunger.
+                        </p>
+
+                        <div class="offers__cards">
+
+
+
+
+
+
+                            <div class="offers__card animated-card">
+                                <img src="./static/offers/blue background.png" alt="background"
+                                    class="offers__card__backgroud" />
+                                <div class="offers__card__content">
+
+                                    <div class="offers__card__left">
+                                        <div class="offers__card__price__block">
+                                            <p class="offers__card__price__title lng-offers__card__price__title">
+                                                Only
+                                            </p>
+                                            <p class="offers__card__price">
+                                                $10
+                                            </p>
+                                        </div>
+                                        <div class="offers__card__content">
+                                            <p
+                                                class="offers__card__content__first__title lng-offers__card__content__first__title">
+                                                50% Offer Going
+
+                                            </p>
+
+
+                                            <p
+                                                class="offers__card__content__second__title lng-offers__card__content__second__title">
+                                                Chicken Burger
+                                            </p>
+                                            <p class="offers__card__content__about lng-offers__card__content__about">
+                                                Chicken burger with the tasty toppings and leaves.
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+                                    <img src="./static/offers/hamburger.png" alt="hanburger"
+                                        class="offers__card__content__image" />
+                                </div>
+
+
+                            </div>
+
+
+
+
+
+
+
+
+
+                            <div class="offers__card animated-card">
+                                <img src="./static/offers/gray background.png" alt="background"
+                                    class="offers__card__backgroud" />
+                                <div class="offers__card__content">
+
+                                    <div class="offers__card__left">
+                                        <div class="offers__card__price__block">
+                                            <p class="offers__card__price__title">
+                                                Only
+                                            </p>
+                                            <p class="offers__card__price">
+                                                $10
+                                            </p>
+                                        </div>
+                                        <div class="offers__card__content">
+                                            <p class="offers__card__content__first__title">
+                                                50% Offer Going
+
+                                            </p>
+
+
+                                            <p class="offers__card__content__second__title">
+                                                Chicken Burger
+                                            </p>
+                                            <p class="offers__card__content__about">
+                                                Chicken burger with the tasty toppings and leaves.
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+                                    <img src="./static/offers/pizza.png" alt="hanburger"
+                                        class="offers__card__content__image" />
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section class="popular">
+                <div class="container__max">
+                    <div class="popular__content">
+                        <p class="popular__first__title lng-popular__first__title">
+                            menu
+                        </p>
+                        <p class="popular__second__title lng-popular__second__title">
+                            Popular Dishes
+                        </p>
+                        <p class="popular__about lng-popular__about">
+                            There is a game between the waiters in restaurant to see who serves the food to
+                            each table fastest. That led to attempting the Guinness Record.
+                        </p>
+
+
+
+
+
+                        <div class="popular__cards">
+
+
+
+
+
+
+
+
+
+
+
+
+                            
+
+                        </div>
+
+                        <button class="popular__see_all lng-popular__see_all btn__animation">
+                            See all dishes
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="we__offer">
+                <div class="container__max">
+                    <div class="we__offer__content">
+                        <div class="we__offer__left">
+                            <p class="we__offer__first__title lng-we__offer__first__title">
+                                What we offer
+                            </p>
+                            <p class="we__offer__second__title lng-we__offer__second__title">
+                                Our Great Services
+                            </p>
+                            <p class="we__offer__about lng-we__offer__about">
+                                The atmosphere set the stage. It’s about more than just a dining room away from your
+                                home.
+                                food takes the spotlight as guests.
+
+                            </p>
+                        </div>
+                        <div class="we__offer__cards">
+                            <div class="we__offer__card">
+                                <img src="./static/we-offer/Vector.png" alt="icon" class="we__offer__card__icon">
+                                <p class="we__offer__card__title lng-we__offer__card__title1">
+                                    Opened 24/7
+                                </p>
+                            </div>
+
+                            <div class="we__offer__card">
+                                <img src="./static/we-offer/IMAGE.png" alt="icon" class="we__offer__card__icon">
+                                <p class="we__offer__card__title lng-we__offer__card__title2">
+                                    Special Menus
+                                </p>
+                            </div>
+
+
+
+                            <div class="we__offer__card">
+                                <img src="./static/we-offer/IMAGE-1.png" alt="icon" class="we__offer__card__icon">
+                                <p class="we__offer__card__title lng-we__offer__card__title3">
+                                    Home Delivery
+                                </p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+            <section class="blog" id="blog">
+                <div class="container__max">
+                    <div class="blog__content">
+                        <p class="blog__first__title lng-blog__first__title">
+                            Blog
+                        </p>
+                        <p class="blog__second__title lng-blog__second__title">
+                            Be First Who Read News
+                        </p>
+                        <p class="blog__second__about lng-blog__second__about">
+                            Explore the latest stories about our dishes, offers,
+                            events and future plans here.
+                        </p>
+
+                        <div class="blog__cards">
+                            <div class="blog__card">
+                                <div class="blog__img__container">
+
+                                    <img src="./static/blog/second.png" alt="" class="blog__img" />
+                                    <button
+                                        class="blog__card__view__button btn__animation lng-blog__card__view__button">
+                                        View More
+                                    </button>
+                                </div>
+                                <div class="blog__card__content">
+                                    <div class="card__date__block">
+                                        <p class="card__date__title lng-card__date__title">
+                                            Delicious
+                                        </p>
+
+                                        <p class="card__date__time lng-card__date__time">
+                                            March 19, 2022
+                                        </p>
+                                    </div>
+
+                                    <p class="blog__card__title lng-blog__card__title">
+                                        The Legend of US Cuisine: The Story of Hungry People
+                                    </p>
+
+                                    <p class="blog__card__about lng-blog__card__about">
+                                        Capitalize on low-hanging fruit to identify a ballpark value added matrix
+                                        economically and the creative activity to beta test override the food quality.
+                                    </p>
+
+
+                                </div>
+                            </div>
+
+
+                            <div class="blog__card">
+                                <div class="blog__img__container">
+                                    <img src="./static/blog/second.png" alt="" class="blog__img" />
+                                    <button class="blog__card__view__button btn__animation">
+                                        View More
+                                    </button>
+                                </div>
+                                <div class="blog__card__content">
+                                    <div class="card__date__block">
+                                        <p class="card__date__title">
+                                            Delicious
+                                        </p>
+
+                                        <p class="card__date__time">
+                                            March 19, 2022
+                                        </p>
+                                    </div>
+
+                                    <p class="blog__card__title">
+                                        The Legend of US Cuisine: The Story of Hungry People
+                                    </p>
+
+                                    <p class="blog__card__about">
+                                        Capitalize on low-hanging fruit to identify a ballpark value added matrix
+                                        economically and the creative activity to beta test override the food quality.
+                                    </p>
+
+
+                                </div>
+                            </div>
+
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+
+            <section class="book__table">
+                <img src="./static/booking/IMAGE.png" alt="booking" class="book__table__image" />
+                <div class="container__max">
+                    <form class="book__table__form">
+                        <div class="book__table__content">
+                            <div class="book__table__content__background"></div>
+                            <p class="book__table__first__title lng-book__table__first__title">
+                                reservation
+                            </p>
+                            <p class="book__table__second__title lng-book__table__second__title">
+                                Book Your Table
+                            </p>
+                            <div class="book__table__forms">
+                                <div class="book__table__forms__first">
+
+                                    <input type="text" class="book__table__input item1" placeholder="Name" required />
+                                    <input type="text" class="book__table__input item2" placeholder="Email" required />
+                                </div>
+                                <div class="book__table__forms__second">
+
+                                    <input type="text" class="book__table__input item3" placeholder="Persons"
+                                        required />
+                                    <input type="text" class="book__table__input item4" placeholder="Timing" required />
+                                    <input type="text" class="book__table__input item5" placeholder="Date" required />
+                                </div>
+                            </div>
+                            <button class="book__table__btn btn__animation lng-book__table__btn" type="submit">
+                                Book A Table
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+
+
+        </main>
+
+
+        <footer class="footer" id="footer">
+            <div class="container__max">
+                <div class="footer__preview">
+                    <p class="footer__hashtag">
+                        #TheTastEat
+                    </p>
+
+
+                    <img src="./static/LOGO.png" alt="logo" class="footer__preview__logo" />
+
+
+                    <div class="footer__networks">
+                        <img src="./static/inst.png" alt="social network" class=" " />
+                        <img src="./static/facebook.png" alt="social network" class=" " />
+                        <img src="./static/twitter.png" alt="social network" class=" " />
+                        <img src="./static/pinterest.png" alt="social network" class=" " />
+                    </div>
+                </div>
+                <div class="footer__titles">
+                    <div class="footer__titles__element">
+                    </div>
+                    <div class="footer__titles__element lng-footer-title">
+                        Join our mailing list for updates,
+                        Get news & offers events.
+                    </div>
+                    <div class="footer__titles__element">
+                        <p class="footer__working__hours lng-footer-wh">
+                            Working Hours
+                        </p>
+                    </div>
+                </div>
+                <div class="footer__main">
+                    <div class="footer__main__element">
+                        <p class="footer__main__element__title lng-footer-contact">
+                            Contact
+                        </p>
+                        <p class="footer__main__element__subtitle lng-footer-st">
+                            5 Rue Dalou, 75015 Paris
+                        </p>
+                        <p class="footer__main__element__email">
+                            <a href="tel:1234556">
+                                +123 456 789
+                            </a>
+                        </p>
+                        <p class="footer__main__element__tel">
+                            <a href="mailto:test@mail.ru">
+
+                                josefin@mail.com
+                            </a>
+                        </p>
+                    </div>
+
+
+                    <div class="footer__main__element">
+
+                        <form action="" class="footer__main__element__form">
+                            <div class="footer__main__element__form__content">
+                                <input type="text" class="footer__main__element__input" placeholder="Email" required />
+                                <button type="submit"
+                                    class="footer__main__element__form__btn lng-footer-sbs btn__animation">
+                                    Subscribe
+                                </button>
+                            </div>
+                        </form>
+
+                    </div>
+                    <div class="footer__main__element">
+                        <div class="footer__main__element__days">
+                            <div class="footer__main__element__day">
+                                <p class="footer__main__element__day__left lng-footer-m-f">
+                                    Mon – Fri:
+                                </p>
+                                <p class="footer__main__element__day__right">
+                                    7.00am – 6.00pm
+                                </p>
+                            </div>
+                            <div class="footer__main__element__day">
+                                <p class="footer__main__element__day__left lng-footer-sat">
+                                    Sat:
+                                </p>
+                                <p class="footer__main__element__day__right">
+                                    7.00am – 6.00pm
+                                </p>
+                            </div>
+                            <div class="footer__main__element__day">
+                                <p class="footer__main__element__day__left lng-footer-sun">
+                                    Sun:
+                                </p>
+                                <p class="footer__main__element__day__right">
+                                    8.00am – 6.00pm
+                                </p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="footer__copyright">
+                    <div class="footer__copyright__left">
+                        <span class="footer__copyright__white lng-footer-copyright">
+                            © Copyright - TastEat | Designed by
+                        </span>
+                        <span class="footer__copyright__orange lng-footer-victorflow">
+                            VictorFlow
+                        </span>
+                        <span class="footer__copyright__white lng-footer-powered">
+                            - Powered by
+                        </span>
+                        <span class="footer__copyright__orange lng-footer-webflow">
+                            Webflow
+                        </span>
+                    </div>
+                    <div class="footer__copyright__right">
+                        <div class="footer__copyright__item lng-footer-styleguide">Styleguide</div>
+                        <div class="footer__copyright__item lng-footer-licences">Licenses</div>
+                        <div class="footer__copyright__item lng-footer-protected">Protected</div>
+                        <div class="footer__copyright__item lng-footer-not">Not Found</div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </footer>
+
+
+
+
+        <input type="button" class="theme__switcher" value="Toggle" id="toggle-theme" />
+
+        <select class="change-lang">
+            <option value="ru" selected>RU</option>
+            <option value="en">EN</option>
+            <option value="ua">UA</option>
+        </select>
+    </div>
+
+
+
+
+
+
+    <div class="modal">
+        <div class="modal__window" id="modal">
+            <div class="modal__header">
+                <p class="modal__header__title">
+                    Buy your loved one
+                </p>
+                <p class="modal__header__about">
+                    Choose your loved one
+                </p>
+                <div class="modal__content">
+                    <div class="modal__content__left">
+                        <img src="./static/popular/IMAGE.png" alt="dish" class="modal__content__image" />
+                    </div>
+                    <div class="modal__content__right">
+                        <div class="modal__content__right__inform">
+
+                            <p class="modal__content__right__title">
+                                Desert Sicilia
+                            </p>
+                            <p class="modal__content__right__about">
+                                The most common dish in ancient Greece
+                            </p>
+                        </div>
+                        <button class="modal__content__right__btn btn__animation ">
+                            Buy
+                        </button>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+        <div class="modal__overlay"></div>
+    </div>
+
+
+
+    <script type="module" src="render.js"></script>
+    <script src="book-modal.js" defer></script>
+    <script src="arrow.js" defer></script>
+    <script src="theme-switcher.js" defer></script>
+    <script src="sidebar.js" defer></script>
+    <script src="lang-switcher.js" defer></script>
+    <script src="card-carousel.js" async></script>
+
+    <!--
+
+    <script  type="module" src="render.js"></script>
+    <script src="book-modal.js"></script>
+    <script src="card-carousel.js">  </script>
+    <script src="arrow.js">  </script>
+    <script src="theme-switcher.js"></script>
+    <script src="sidebar.js"></script>
+    <script src="lang-switcher.js"></script>
+-->
+
+</body>
+
+</html>

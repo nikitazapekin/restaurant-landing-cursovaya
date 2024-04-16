@@ -1,0 +1,19 @@
+{
+    "name": "my-module-project",
+    "version": "1.0.0",
+    "description": "Пример проекта с ECMAScript модулями",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "keywords": [
+      "ECMAScript",
+      "модули"
+    ],
+    "author": "Ваше Имя",
+    "license": "MIT",
+    "dependencies": {
+      
+    }
+  }

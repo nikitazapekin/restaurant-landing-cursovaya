@@ -1,0 +1,22 @@
+{
+    "dishes": [
+        {
+            "id": 1,
+            "title": "Desert Vilia",
+            "price": "40%",
+            "about": "The most common dish in Sicilia"
+        },
+        {
+            "id": 2,
+            "title": "Desert Vilia",
+            "price": "40%",
+            "about": "The most common dish in Sicilia"
+        },
+        {
+            "id": 3,
+            "title": "Desert Vilia",
+            "price": "40%",
+            "about": "The most common dish in Sicilia"
+        }
+    ]
+}
