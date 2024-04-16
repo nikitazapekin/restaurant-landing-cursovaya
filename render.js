@@ -181,27 +181,6 @@ const parent = document.querySelector(".slider-track")
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function createPopularCard(title, price, about, imagePath) {
     var cardDiv = document.createElement("div");
     cardDiv.classList.add("popular__card", "animated-card");
@@ -269,14 +248,19 @@ fetch('./data.json')
             addDishElement(item.title, item.price, item.about, item.url, "desert");
         })
 
+//.first-arrows, .second-arrows 
+/*
+if(jsonData.customers.length>3) {
+   document.querySelector(".first-arrows").style.display = "flex"
+}  */
 
 /*
-        jsonData.customers.forEach((item, index) => {
-
-            console.log(item)
+jsonData.customers.forEach((item, index) => {
+    
+    console.log(item)
             addCustomerCard(item.title, item.about, item.location, item.url);
         })
-*/
+        */
 
 
         jsonData.popular.forEach((item, index) => {

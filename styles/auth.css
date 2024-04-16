@@ -137,50 +137,16 @@ cursor: pointer;
 
 .burger__content {
     display: none;
-}
-/*
+} 
 
 
-.footer__main__element__title {
-    position: relative;
-    display: inline;
-   
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 140%;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
+
+.form__email__input__error, .form__password__input__error, .form__user__input__error {
+    display: none;
+    color: rgba(255, 0, 0, 0.644);
     font-family: 'Josefin Sans', sans-serif;
-   
-    color: var(--white-color);
+font-weight: 400;
+font-size: 20px;
+text-align: center;
+margin-top: 10px;
 }
-
-
-.footer__main__element__title::before {
-    content: "";
-    background-color: #E1B168;
-    width: 100%;
-    position: absolute;
-    height: 1px;
-    top: 0;
-    left: 0;
-    transform: translateY(-6.7px);
-    top: 0;
-    left: 0
-}
-
-.footer__main__element__title::after {
-    content: "";
-    background-color: #E1B168;
-    width: 100%;
-    position: absolute;
-    height: 1px;
-    bottom: 0;
-    left: 0;
-    transform: translateY(6.7px);
-    left: 0;
-    bottom: 0;
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-*/

@@ -23,103 +23,6 @@
 
 <body>
     <div class="page__wrapper">
-
-
-
-        <!--
-
-            <header class="header">
-                <div class="container__max">
-                <div class="header__preview">
-                    <div class="header__preview__button__left btn__animation">
-                        <a href="tel:123456789" class="lng-tel">Call - 123 456 789</a>
-                    </div>
-                    <div class="header__preview__logo">
-                        <img src="./static/LOGO.png" alt="logo" class="header__preview__image" />
-                    </div>
-                    <div class="header__preview__button__right lng-reservation btn__animation">
-                        Reservation
-                    </div>
-                </div>
-
-
-                <div class="navbar__container">
-                    <nav class="header__navbar">
-                        <li class="header__btn lng-home">Home</li>
-                        <li class="header__btn">
-                            <a href="#mini__info" class="header__btn__link lng-about__us">
-                                About Us
-                            </a>
-                        </li>
-                        <li class="header__btn">
-                            <a href="#dishes" class="header__btn__link lng-menu">
-                                Our Menu
-                            </a>
-                        </li>
-                        <li class="header__btn lng-pages">Pages</li>
-                        <li class="header__btn">
-                            <a href="#blog" class="header__btn__link lng-blog">
-                                Blog
-                            </a>
-                        </li>
-                        <li class="header__btn">
-                            <a href="#footer" class="header__btn__link lng-contact">
-                                Contact Us
-                            </a>
-                        </li>
-                    </nav>
-
-
-                    <div class="header__navbar__networks">
-                        <img src="./static/inst.png" alt="social network" class="header__network" />
-                        <img src="./static/facebook.png" alt="social network" class="header__network" />
-                        <img src="./static/twitter.png" alt="social network" class="header__network" />
-                        <img src="./static/pinterest.png" alt="social network" class="header__network" />
-                    </div>
-
-                </div>
-
-            </div>
-
-
-
-            <div class="burger__panel">
-                <div class="burger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-
-            </div>
-            
-            <aside class="burger__content">
-
-                 <img src="./static/LOGO.png" alt="logo" class="burger__logo">
-                 
-                 <div class="burger__btns">
-                    <div class="burger__btn lng-home">Home</div>
-                    <div class="burger__btn lng-about__us">About Us</div>
-                    <div class="burger__btn  lng-menu">Our Menu</div>
-                    <div class="burger__btn lng-pages">Pages</div>
-                    <div class="burger__btn lng-blog">Blog</div>
-                    <div class="burger__btn lng-contact">Contact Us</div>
-                    <div class="burger__btn">Call - 123 456 789</div>
-                    <div class="burger__btn">Reservation</div>
-                </div>
-                <div class="header__navbar__networks">
-                    <img src="./static/inst.png" alt="social network" class="header__network" />
-                    <img src="./static/facebook.png" alt="social network" class="header__network" />
-                    <img src="./static/twitter.png" alt="social network" class="header__network" />
-                    <img src="./static/pinterest.png" alt="social network" class="header__network" />
-                </div>
-            </aside>
-
-        </header>
-    -->
-
-
-
-
     <header class="header">
         <div class="container__max">
             <div class="header__preview">
@@ -255,8 +158,13 @@
                                 <p class="form__username__text">
                                     Username
                                 </p>
-                                <input type="text" class="form__username__input" placeholder="Type username" required />
+                                <input type="text" class="form__username__input user__input" placeholder="Type username" required />
                                 <img src="./static/auth/user.png" alt="user" class="form__username__image" />
+
+
+                                <p class="form__user__input__error">
+                                   
+                                </p>
                             </div>
 
 
@@ -264,8 +172,13 @@
                                 <p class="form__username__text">
                                     Email
                                 </p>
-                                <input type="text" class="form__username__input" placeholder="Type email" required />
+                                <input type="text" class="form__username__input email__input" placeholder="Type email" required />
                                 <img src="./static/auth/email.png" alt="user" class="form__username__image" />
+
+
+                                <p class="form__email__input__error">
+                                   
+                                </p>
                             </div>
 
 
@@ -275,6 +188,11 @@
                                 </p>
                                 <input   class="form__username__input password__input" type="password" placeholder="Type password" required />
                                 <img src="./static/auth/hidden.png" alt="user" class="form__username__image eye__btn" />
+
+
+                                <p class="form__password__input__error">
+                                   
+                                </p>
                             </div>
 
                             <div class="form__element">
@@ -481,6 +399,7 @@
     <script src="sidebar.js"></script>
     <script src="lang-switcher.js"></script>
     <script src="auth.js"></script>
+    <script src="form-validation.js"></script>
 </body>
 
 </html>

@@ -136,8 +136,11 @@
                                 <p class="form__username__text">
                                     Email
                                 </p>
-                                <input type="text" class="form__username__input" placeholder="Type email" required />
+                                <input type="email" class="form__username__input email__input" placeholder="Type email" required />
                                 <img src="./static/auth/email.png" alt="user" class="form__username__image" />
+                                <p class="form__email__input__error">
+                                   
+                                </p>
                             </div>
 
 
@@ -147,6 +150,9 @@
                                 </p>
                                 <input   class="form__username__input password__input" type="password" placeholder="Type password" required />
                                 <img src="./static/auth/hidden.png" alt="user" class="form__username__image eye__btn" />
+                                <p class="form__password__input__error">
+                                     
+                                </p>
                             </div>
 
                             <div class="form__element">
@@ -210,7 +216,6 @@
                         </p>
                         <p class="footer__main__element__tel">
                             <a href="mailto:test@mail.ru">
-
                                 josefin@mail.com
                             </a>
                         </p>
@@ -353,6 +358,7 @@
     <script src="sidebar.js"></script>
     <script src="lang-switcher.js"></script>
     <script src="auth.js"></script>
+    <script src="form-validation.js"></script>
 </body>
 
 </html>
