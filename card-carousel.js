@@ -535,17 +535,16 @@ let slider = document.querySelector('.slider'),
 let startX = 0;
 let endX = 0;
 
-// Event listener for touch start
+
 slider.addEventListener('touchstart', (e) => {
     startX = e.touches[0].clientX;
 });
 
-// Event listener for touch move
+
 slider.addEventListener('touchmove', (e) => {
     endX = e.touches[0].clientX;
 });
 
-// Event listener for touch end
 slider.addEventListener('touchend', handleSwipe);
 
 slider.addEventListener('mousedown', (e) => {
@@ -573,8 +572,9 @@ function handleSwipe() {
     const threshold = CARD_WIDTH / 2; 
 
     if (diff > threshold) {
-        // Swipe left
-        if (slideIndex < slides.length - 1) {
+
+       if (slideIndex < slides.length - 1) {
+   // if (slideIndex < slides.length ) {
             slideIndex++;
             pos -= CARD_WIDTH;
         }
@@ -638,11 +638,11 @@ arrows.addEventListener('click', function () {
 const arrowLeft = document.querySelector(".arrow__left")
 const arrowRight = document.querySelector(".arrow__right")
  
-if( slides.length<=3) {
+if( slides.length<3) {
     document.querySelector(".second-arrows").style.display = "flex"
 }   
 else {
-  arrowBtns.style.display = "flex"
+    arrowBtns.style.display = "flex"
 }
 
 
