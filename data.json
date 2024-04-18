@@ -1,5 +1,5 @@
   {
-    "test": "1",
+   
     "dishes__starters": [
         {
             "title": "Raw Scallops from Erquy",
@@ -68,6 +68,12 @@
         {
             "title": "Natasha D",
             "location":  "Newyork",
+            "url" :  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi8sleRBWo_YUr7MY8DVKqy1IAq7BxCu5mPQ&s",
+            "about": "They known for its fabulous taste and food. Anywhere you go your hunger is satisfied. The best chicken & burgers those are yummy."
+        },
+        {
+            "title": "Natasha D",
+            "location":  "Newyork",
             "url" :  "./static/users/Frame-1.png",
             "about": "They known for its fabulous taste and food. Anywhere you go your hunger is satisfied. The best chicken & burgers those are yummy."
         },
@@ -76,13 +82,9 @@
             "location":  "Newyork",
             "url" :  "./static/users/Frame-2.png",
             "about": "They known for its fabulous taste and food. Anywhere you go your hunger is satisfied. The best chicken & burgers those are yummy."
-        },
-        {
-            "title": "Natasha D",
-            "location":  "Newyork",
-            "url" :  "./static/users/Frame-1.png",
-            "about": "They known for its fabulous taste and food. Anywhere you go your hunger is satisfied. The best chicken & burgers those are yummy."
         }
+ 
+     
         
     ], 
 
@@ -108,7 +110,7 @@
         {
             "title": "Chicken Manjoori",
             "price":  "$35",
-            "url" :  "./static/popular/IMAGE.png",
+            "url" :  "https://avatars.mds.yandex.net/i?id=3840ee8bc871c7712aa09cf7a1b0e29c_l-5858967-images-thumbs&n=27&h=480&w=480",
             "about": "Dish relished by all age groups as a starter dish at parties."
         }
     ]

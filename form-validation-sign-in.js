@@ -2,9 +2,9 @@ const emailError = document.querySelector(".form__email__input__error")
 const passwordError = document.querySelector(".form__password__input__error")
 const emailInput = document.querySelector(".email__input")
 const passwordInput = document.querySelector(".password__input")
-const submitBtn = document.querySelector(".auth__form__submit")
+const submitBtn = document.querySelector(".sign__in__button")
 
-const userInput = document.querySelector(".user__input")
+//const userInput = document.querySelector(".user__input")
 
 const userError = document.querySelector(".form__user__input__error")
  
@@ -19,7 +19,7 @@ function validatePassword(password) {
     return passwordRegex.test(password);
 }
 
-let isCorrectUsername =false
+//let isCorrectUsername =false
 let isCorrectEmail = false
 let isCorrectPassword =false
  
@@ -59,7 +59,7 @@ submitBtn.addEventListener("click", ()=> {
     else {
         emailError.style.display = "none";
     }
-if(userInput.value.length==0) {
+/*if(userInput.value.length==0) {
     userError.style.display = "block";
     userError.textContent = "Enter username"; 
     let isCorrectUsername =false
@@ -67,24 +67,11 @@ if(userInput.value.length==0) {
     userError.style.display = "none";  
     isCorrectUsername=true
 }
-
+*/
 
 })
 
 
-
-document.querySelector(".auth__form__submit").addEventListener("click", (e)=> {
-   
- e.preventDefault()
- if( isCorrectEmail && isCorrectPassword && isCorrectUsername){
-
-     modalWindow.style.display = "flex";
-     console.log(11)
-    }
- 
- 
- })
-/*
  document.querySelector(".sign__in__button").addEventListener("click", (e)=> {
    
     e.preventDefault()
@@ -96,7 +83,8 @@ document.querySelector(".auth__form__submit").addEventListener("click", (e)=> {
     
     
     })
-   
+    
+    /*
 */
  document.querySelector(".modal__overlay").addEventListener("click", ()=> {
 

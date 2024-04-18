@@ -106,7 +106,7 @@ background-color: red;
     padding-left: 20px;
 }
 
-.auth__form__submit {
+.auth__form__submit, .sign__in__button {
     margin-top: 20px;
     height: 53px;
     background-color: #E1B168;

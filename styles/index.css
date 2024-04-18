@@ -896,6 +896,8 @@ flex: 0 1 743px;
 
     user-select: none;
     touch-action: pan-y;
+
+    margin-bottom: 130px;
      
  /*   height: auto;
  
@@ -948,7 +950,6 @@ position: absolute;
 
 
 .customers__content {
-    /* margin-top: 141px; */
     padding-left: 40px;
     padding-right: 40px;
  
@@ -981,7 +982,15 @@ position: absolute;
     left: 0;
     transform: translateY(-6.7px);
 }
-
+.customer__card__bio__logo__image {
+    width: 113px;
+    height: 113px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: center;
+    position: relative;
+}
+ 
 .customers__first__title::after {
     content: "";
     background-color: #E1B168;
@@ -993,6 +1002,14 @@ position: absolute;
     transform: translateY(6.7px);
 }
 
+.customer__card__bio__logo  {
+    position: relative;
+}
+.zapatie {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 .customers__second__title {
     font-weight: 400;
     margin-top: 15px;
@@ -1041,14 +1058,9 @@ position: absolute;
     transition: 1s ease;
     width: auto;
     column-gap: 30px;
-   /* height: 800px; */
- 
-  
+
     display: flex;
-    /*
-   
-    
-    */
+
     position: absolute;
  
 }
@@ -1061,7 +1073,7 @@ position: absolute;
     padding: 0px 40px;
     background-color: var(--black-color);
  
-    height: 800px;
+   /* height: 800px; */
     height: auto;
  
    position: relative;
@@ -1070,28 +1082,6 @@ position: absolute;
 }
 
 
-@media  screen and (max-width: 740px) {
-    .customer__rate__card  {
-        width: 444px;
- 
-   
-    } 
-
-
-  
-    
-}
-@media  screen and (max-width: 740px) {
-    .customer__rate__card  {
-        width: 250px;
- 
-   height: 1000px;
-    } 
-
-
-  
-    
-}
 
 
 .customer__rate__card__bio {
@@ -1171,14 +1161,17 @@ position: absolute;
     display: flex;
   justify-content: center;
   column-gap: 10px;
-  margin-top: 69px;
+ 
+margin-top: 70px;
 }
 
 
 .first-arrows, .second-arrows {
     display: none;
 }
- 
+.first-arrows {
+    margin-top: 40px;
+}
 .customers__cards::-webkit-scrollbar {
     /* убрали видимость полоски скроллинга*/
     width: 0px;
@@ -1423,11 +1416,13 @@ position: absolute;
     line-height: 140%;
     letter-spacing: 0.01em;
     font-family: 'Cormorant Infant', sans-serif;
-    /* color: #292e36; 
-   */
+ 
     color: var(--white-color)
 }
-
+.popular__card__image {
+    width: 318px;
+    height: 307px
+}
 .popular__card__price {
     font-weight: 700;
     font-size: 30px;

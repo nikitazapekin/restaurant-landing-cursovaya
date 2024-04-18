@@ -6,8 +6,9 @@
     align-items: center;
     position: fixed;
     justify-content: center;
-    display: none;
-
+  /*  
+  */
+  display: none;
 }
 
 .modal__window {
@@ -166,7 +167,11 @@
     font-family: 'Josefin Sans', sans-serif;
     color: #555;
 }
-
+.modal__sign__up__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 @media screen and (max-width: 650px) {
     .modal__content__image {
         width: 100%;
@@ -182,4 +187,19 @@
         height: 600px;
         row-gap: 50px;
     }
+}
+
+.modal__window__btn  {
+    padding: 20px 85px;
+    background-color: #E1B168;
+    cursor: pointer;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 23px;
+}
+
+.modal__window__title {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
 }
