@@ -3,9 +3,7 @@ const passwordError = document.querySelector(".form__password__input__error")
 const emailInput = document.querySelector(".email__input")
 const passwordInput = document.querySelector(".password__input")
 const submitBtn = document.querySelector(".sign__in__button")
-
 //const userInput = document.querySelector(".user__input")
-
 const userError = document.querySelector(".form__user__input__error")
  
 function validateEmail(email) {
@@ -19,7 +17,6 @@ function validatePassword(password) {
     return passwordRegex.test(password);
 }
 
-//let isCorrectUsername =false
 let isCorrectEmail = false
 let isCorrectPassword =false
  
@@ -59,15 +56,7 @@ submitBtn.addEventListener("click", ()=> {
     else {
         emailError.style.display = "none";
     }
-/*if(userInput.value.length==0) {
-    userError.style.display = "block";
-    userError.textContent = "Enter username"; 
-    let isCorrectUsername =false
-} else {
-    userError.style.display = "none";  
-    isCorrectUsername=true
-}
-*/
+ 
 
 })
 
@@ -76,7 +65,7 @@ submitBtn.addEventListener("click", ()=> {
    
     e.preventDefault()
     if( isCorrectEmail && isCorrectPassword  ){
-        document.body.style.overflow = "hidden";
+        document.body.style.overflowY = "hidden";
         modalWindow.style.display = "flex";
         console.log(11)
        }
@@ -84,11 +73,9 @@ submitBtn.addEventListener("click", ()=> {
     
     })
     
-    /*
-*/
  document.querySelector(".modal__overlay").addEventListener("click", ()=> {
 
-    document.body.style.overflow = "scroll";
+    document.body.style.overflowY = "scroll";
          modalWindow.style.display = "none";
      console.log(11)
  
@@ -99,7 +86,7 @@ submitBtn.addEventListener("click", ()=> {
  document.querySelector(".modal__window__btn").addEventListener("click", ()=> {
     modalWindow.style.display = "none";
     console.log(11)
-    document.body.style.overflow = "scroll";
+    document.body.style.overflowY = "scroll";
  })
 
 

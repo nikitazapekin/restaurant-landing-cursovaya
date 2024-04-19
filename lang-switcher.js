@@ -70,7 +70,7 @@ const langArr = {
         "en": "The people, food and the prime locations make the perfect place good friends & family to come together and have great time."
     },
 
-  "welcome-btn": {
+    "welcome-btn": {
         "ru": "Показать меню",
         "en": "View Menu"
     },
@@ -147,7 +147,7 @@ const langArr = {
         "ru": "Посмотреть все блюда",
         "en": "See all dishes"
     },
-    
+
 
 
 
@@ -380,91 +380,211 @@ const langArr = {
     "book__table__btn": {
         "ru": "Забронируйте столик",
         "en": "Book A Table"
-    },  
- 
+    },
+
 
 
     "footer-not": {
         "ru": "Не Найдено",
         "en": "Not Found"
-    },  
+    },
     "footer-protected": {
         "ru": "Защищено",
         "en": "Protected"
-    },  
+    },
 
     "footer-licences": {
         "ru": "Лицензии",
         "en": "Licenses"
-    },  
+    },
 
     "footer-styleguide": {
         "ru": "Стиль",
         "en": "Styleguide"
-    },  
+    },
 
     "footer-webflow": {
         "ru": "Веб-поток",
         "en": "Webflow"
-    },  
+    },
     "footer-powered": {
         "ru": "- Питаться от",
         "en": "- Powered by"
-    },  
+    },
 
     "footer-victorflow": {
         "ru": "ВикторФлоу",
         "en": "VictorFlow"
-    },  
+    },
 
     "footer-copyright": {
         "ru": "© Copyright - ВкусЕсть | Разработано",
         "en": "© Copyright - TastEat | Designed by"
-    },  
+    },
 
     "footer-sun": {
         "ru": "Вс:",
         "en": "Sun:"
-    },  
+    },
 
     "footer-sat": {
         "ru": "Сб:",
         "en": "Sat:"
-    },  
+    },
 
     "footer-m-f": {
         "ru": "Пон-пят",
         "en": "Mon – Fri:"
-    },  
+    },
 
     "footer-sbs": {
         "ru": "Подписаться",
         "en": "Subscribe"
-    },  
+    },
 
 
 
     "footer-st": {
         "ru": "5, Рю Далу, 75015 Париж",
         "en": "5 Rue Dalou, 75015 Paris"
-    },  
+    },
 
 
     "footer-contact": {
         "ru": "Связаться",
         "en": "Contact"
-    },  
+    },
 
     "footer-wh": {
         "ru": "Рабочие часы",
         "en": "Working Hours"
-    },  
+    },
 
     "footer-title": {
         "ru": "Присоединяйтесь к нашему списку рассылки для получения обновлений, Получайте новости и предложения событий.",
         "en": "Join our mailing list for updates, Get news & offers events."
-    },  
+    },
+    "sign-in": {
+        "en": "SIGN IN",
+        "ru": "Вход"
+    },
+    "sign-up": {
+        "en": "SIGN UP",
+        "ru": "Зарегистрироваться"
+    },
+    "or-sign-up": {
+        "en": "Or sign up",
+        "ru": "Зарегистрироваться"
+    },
+
+    "password": {
+        "en": "Password",
+        "ru": "Пароль"
+    },
+
+    "email": {
+        "en": "Email",
+        "ru": "Почта"
+    },
+
+    "burger-contact": {
+        "en": "Contact Us",
+        "ru": "Связаться с нами"
+    },
+
+    "burger-menu": {
+        "en": "Our menu",
+        "ru": "Меню"
+    },
+
+    "burger-pages": {
+        "en": "Pages",
+        "ru": "Страницы"
+    },
+
+    "burger-blog": {
+        "en": "Blog",
+        "ru": "Блог"
+    },
+
+    "burger-tel": {
+        "en": "Call - 123 456 789",
+        "ru": "Позвонить - 123 456 789"
+    },
+
+    "burger-reservation": {
+        "en": "Reservation",
+        "ru": "Бронирование"
+    },
+}
+//or-sign-up
+
+
+/*
+const maxImg = document.querySelector('.right-panel img');
+const select = document.querySelector('select');
+const allLang = ['en', 'ru', 'ua'];
+
+document.querySelectorAll('.left-panel img').forEach(item => item.onmouseenter = (event) => maxImg.src = event.target.src);
+
+select.addEventListener('change', changeURLLanguage);
+
+//localStorage.setItem("lang","ru")
  
+ 
+if(!String(location.href).includes("#")){
+    location.href =  location.href + '#' + "en";
+}
+window.onload= function() {
+    console.log("ddd")
+const lang = localStorage.getItem("lang")
+console.log(lang)
+if(!String(location.href).includes("#")){
+    location.href =  location.href + '#' + lang;
+    location.reload();
+}
+
+}
+
+function changeURLLanguage() {
+    let lang = select.value;
+    localStorage.setItem("lang",lang)
+    location.href = window.location.pathname + '#' + lang;
+    location.reload();
+}
+
+function changeLanguage() {
+    let hash = window.location.hash;
+  //  hash = hash.substr(1);
+hash = localStorage.getItem("lang")
+if(hash==null || hash==undefined) {
+    hash='en'
+}
+console.log("HASH"+hash);
+    localStorage.setItem("lang",hash)
+   if (!allLang.includes(hash)) {
+        location.href = window.location.pathname + '#en';
+     //   location.reload();
+    }    
+
+
+    select.value = hash;
+    for (let key in langArr) {
+        let elem = document.querySelector('.lng-' + key);
+        if (elem) {
+            elem.innerHTML = langArr[key][hash];
+        }
+
+    }
+}
+
+changeLanguage();
+
+//location.reload();
+*/
+if(!localStorage.getItem("lang")) {
+console.log("lll" +localStorage.getItem("lang"))
+    localStorage.setItem("lang", "ru")
 }
 const maxImg = document.querySelector('.right-panel img');
 const select = document.querySelector('select');
@@ -478,6 +598,7 @@ select.addEventListener('change', changeURLLanguage);
 function changeURLLanguage() {
     let lang = select.value;
     location.href = window.location.pathname + '#' + lang;
+    localStorage.setItem("lang", lang)
     location.reload();
 }
 
@@ -485,8 +606,12 @@ function changeLanguage() {
     let hash = window.location.hash;
     hash = hash.substr(1);
     console.log(hash);
+    hash = localStorage.getItem("lang") ? localStorage.getItem("lang") : "ru"
     if (!allLang.includes(hash)) {
-        location.href = window.location.pathname + '#en';
+        
+    //    location.href = window.location.pathname + '#en';
+    console.log("LL" +localStorage.getItem("lang"))
+    location.href = window.location.pathname + hash;
         location.reload();
     }
     select.value = hash;

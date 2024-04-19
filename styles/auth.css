@@ -77,8 +77,9 @@ background-color: red;
     
     letter-spacing: 0.01em;
     font-family: 'Cormorant Infant', sans-serif;
-    color: #fff; 
+ color: var(--white-color)
     /*
+    color: #fff; 
     color: var(--black-color);
     margin-bottom: 38px;
     */

@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 :root {
     --body-bg-color: #fff;
     --black-color: #FFFFFF;
@@ -1072,8 +1079,6 @@ position: absolute;
     justify-content: flex-start;
     padding: 0px 40px;
     background-color: var(--black-color);
- 
-   /* height: 800px; */
     height: auto;
  
    position: relative;
@@ -1101,7 +1106,8 @@ position: absolute;
     font-size: 30px;
     line-height: 140%;
     letter-spacing: 0.01em;
-    color: #fff;
+    /*color: #fff; */
+    color: var(--white-color);
     font-family: 'Cormorant Infant', sans-serif;
 }
 
