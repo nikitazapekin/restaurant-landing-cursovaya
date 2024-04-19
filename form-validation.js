@@ -80,6 +80,7 @@ document.querySelector(".auth__form__submit").addEventListener("click", (e)=> {
 
      modalWindow.style.display = "flex";
      console.log(11)
+     document.body.style.overflow = "hidden";
     }
  
  
@@ -103,6 +104,7 @@ document.querySelector(".auth__form__submit").addEventListener("click", (e)=> {
  
          modalWindow.style.display = "none";
      console.log(11)
+     document.body.style.overflow = "scroll";
  
  
  })
@@ -111,6 +113,7 @@ document.querySelector(".auth__form__submit").addEventListener("click", (e)=> {
  document.querySelector(".modal__window__btn").addEventListener("click", ()=> {
     modalWindow.style.display = "none";
     console.log(11)
+    document.body.style.overflow = "scroll";
 
  })
 

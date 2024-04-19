@@ -293,13 +293,13 @@ const threshold = CARD_WIDTH / 2;
 
 if (diff > threshold) {
 
-  if (slideIndex < slides.length ) {
+  if (slideIndex < slides.length-1 ) {
 // if (slideIndex < slides.length ) {
        slideIndex++;
        pos -= CARD_WIDTH;
    }
-   if (pos < -(CARD_WIDTH * (slides.length ))) {
-       pos = -(CARD_WIDTH * (slides.length ));
+   if (pos < -(CARD_WIDTH * (slides.length -1))) {
+       pos = -(CARD_WIDTH * (slides.length -1));
    }
 } else if (diff < -threshold) {
 
@@ -319,7 +319,7 @@ sliderTrack.style.transform = `translateX(${pos}px)`;
 startX = 0;
 endX = 0;
 
-if (slideIndex === slides.length ) {
+if (slideIndex === slides.length-1 ) {
    btns[0].classList.remove("active__card");
    btns[1].classList.add("active__card");
 } else {

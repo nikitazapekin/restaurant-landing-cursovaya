@@ -268,7 +268,7 @@ jsonData.customers.forEach((item, index) => {
 
 console.log("CUSTOMERRRRRRRRRRRRRRRRR"+JSON.stringify(item))
 
-// appendCustomerRateCard(item.title, item.about, item.location, item.url);
+ appendCustomerRateCard(item.title, item.about, item.location, item.url);
 
 })
 
@@ -280,7 +280,9 @@ jsonData.popular.forEach((item, index) => {
 })
  
 
-test()
+//test()
+addEventsModalWindow()
+//test()
   
 } else {
   console.error('Failed to load JSON:', xhr.status);

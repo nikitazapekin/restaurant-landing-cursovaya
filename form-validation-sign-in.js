@@ -76,7 +76,7 @@ submitBtn.addEventListener("click", ()=> {
    
     e.preventDefault()
     if( isCorrectEmail && isCorrectPassword  ){
-   
+        document.body.style.overflow = "hidden";
         modalWindow.style.display = "flex";
         console.log(11)
        }
@@ -88,7 +88,7 @@ submitBtn.addEventListener("click", ()=> {
 */
  document.querySelector(".modal__overlay").addEventListener("click", ()=> {
 
- 
+    document.body.style.overflow = "scroll";
          modalWindow.style.display = "none";
      console.log(11)
  
@@ -99,7 +99,7 @@ submitBtn.addEventListener("click", ()=> {
  document.querySelector(".modal__window__btn").addEventListener("click", ()=> {
     modalWindow.style.display = "none";
     console.log(11)
-
+    document.body.style.overflow = "scroll";
  })
 
 
